@@ -136,7 +136,7 @@ body {
     margin: 0 auto;
     margin-bottom: 315px;
     text-align: center;
-    width: 569px;
+    max-width: 569px;
 }
 
 .slogan-title {
@@ -322,6 +322,10 @@ body {
     text-align: center;
     color: #8C8C8C;
     margin-bottom: 42px;
+}
+
+.realization-img {
+    width: 100%;
 }
 
 
@@ -905,6 +909,7 @@ body {
     justify-content: center;
     padding-top: 140px;
     padding-bottom: 140px;
+    flex-wrap: wrap;
 }
 
 .partners-img {
@@ -1057,3 +1062,28 @@ body {
 .copy-list-link:hover {
     color: #BAA78F;
 }
+
+@media (max-width: 1296px) {
+    .header-top {
+        margin-left: 15px;
+    }
+    .wraper-purchase {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .wraper-services {
+        justify-content: center;
+    }
+    .recent-card {
+        margin-left: 50px;
+    }
+    .wraper-footer-top {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .copy-list {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1205px) {}
