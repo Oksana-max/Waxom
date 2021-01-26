@@ -458,6 +458,7 @@ body {
     margin-bottom: 39px;
     transition: 0.3s;
     background: #FBFAF8;
+    width: 370px;
 }
 
 .card-text-title {
@@ -473,6 +474,7 @@ body {
 .card-item-img {
     display: block;
     transition: 0.3s;
+    max-width: 100%;
 }
 
 .card-text {
@@ -572,6 +574,11 @@ body {
     width: 100%;
     margin-top: 248px;
     margin-bottom: 31px;
+    transition: 0.3s;
+}
+
+.video-svg:hover {
+    transform: scale(1.3);
 }
 
 .video-title {
@@ -605,12 +612,293 @@ body {
 }
 
 
-/* Section Partners */
+/* devices */
+
+.wraper-devices {
+    display: flex;
+    justify-content: center;
+}
+
+.wraper-img {
+    margin-top: 78px;
+}
+
+.device-img {
+    display: block;
+}
+
+.wraper-mobile_devices {
+    margin-top: 190px;
+}
+
+.mobile_devices-title {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.mobile_devices-text {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8C8C8C;
+    max-width: 670px;
+    margin-bottom: 50px;
+}
+
+.device-list {
+    list-style-type: none;
+    margin-left: 108px;
+}
+
+.device-list-item {
+    margin-bottom: 11px;
+    position: relative;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8C8C8C;
+}
+
+.device-list-item:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(image/mobile-svg.svg) no-repeat;
+    left: -30px;
+}
+
+
+/* counters */
+
+.counters {
+    background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+}
+
+.counters-svg {
+    fill: #C7B299;
+    align-self: center
+}
+
+.wraper-counters {
+    display: flex;
+    justify-content: space-between;
+    max-width: 786px;
+}
+
+.count {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.counters-text {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C7B299;
+    margin-bottom: 15px;
+}
+
+.counters1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.count-line {
+    width: 30px;
+    align-self: center
+}
+
+
+/* recent */
+
+.wraper-recent-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.recent-text-title {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.recent-text-text {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8C8C8C;
+    max-width: 770px;
+    text-align: center;
+}
+
+.recent-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+
+.recent-card-text {
+    padding: 31px 36px 22px 23px;
+}
+
+.recent-card-img {
+    transition: 0.4s;
+    max-width: 100%;
+}
+
+.recent-card-1 {
+    margin-right: 85px;
+    position: relative;
+    transition: 0.4s;
+    width: 370px;
+    background-color: white;
+    border: 1px solid #B3B3B3;
+}
+
+.figcaption-title {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+    margin-bottom: 22px;
+    transition: 0.4s;
+}
+
+.figcaption-text {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 17px;
+    transition: 0.4s;
+}
+
+.figcaption-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C7B299;
+    position: relative;
+}
+
+.figcaption-link:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 5px solid transparent;
+    border-left: 6px solid #C7B299;
+    top: 6px;
+    transition: 0.4s;
+    position: absolute;
+    left: 85px;
+    border-radius: 2px;
+}
+
+.recent-date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.4s;
+}
+
+.data {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    background: #363636;
+    display: block;
+    padding: 1px 6px;
+    border-radius: 3px 3px 0 0;
+    transition: 0.4s;
+}
+
+.day {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    display: block;
+    background: #242424;
+    padding: 5px 13px;
+    border-radius: 0 0 3px 3px;
+    transition: 0.4s;
+}
+
+.recent-card-1:hover {
+    background-color: #352F2D;
+}
+
+.recent-card-1:hover .recent-card-img {
+    filter: brightness(40%);
+}
+
+.recent-card-1:hover .figcaption-title {
+    color: #C7B299;
+}
+
+.recent-card-1:hover .figcaption-text {
+    color: #FFFFFF;
+}
+
+.recent-card-1:hover .data {
+    background: #C7B199;
+}
+
+.recent-card-1:hover .day {
+    background: #A48D71;
+}
+
+.svg-arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+
+.recent-svg {
+    fill: #D1D1D1;
+    text-align: center;
+    margin-right: 18px;
+}
+
+.recent-svg:hover {
+    fill: #C7B299;
+}
+
+
+/* Div Partners */
 
 .partners {
     background-image: url(image/bg_partners.png);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     width: 100%;
 }
 
@@ -746,6 +1034,17 @@ body {
 
 .copy-list-item {
     list-style: none;
+    border-right: 2px solid #1A1A1A;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.copy-list-item:first-child {
+    padding-left: 0;
+}
+
+.copy-list-item:last-child {
+    border: none;
 }
 
 .copy-list-link {
@@ -755,7 +1054,6 @@ body {
     font-size: 13px;
     line-height: 16px;
     color: #555555;
-    margin-right: 25px;
 }
 
 .copy-list-link:hover {
