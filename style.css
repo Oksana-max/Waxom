@@ -231,7 +231,6 @@ body {
     margin: 0 auto;
     margin-top: 30px;
     border: none;
-    color: #F1EEE9;
     background-color: #F1EEE9;
     height: 2px;
     transition: 0.4s;
@@ -241,7 +240,6 @@ body {
     display: flex;
     align-items: center;
     transition: 0.4s;
-    padding-bottom: ;
 }
 
 .services-card {
@@ -255,7 +253,7 @@ body {
     font-weight: 600;
     font-size: 22px;
     line-height: 26px;
-    color: c;
+    color: #555555;
     margin-bottom: 20px;
     transition: 0.4s;
 }
