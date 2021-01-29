@@ -1,0 +1,1255 @@
+                                                                                                                /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+/* Raleway regular 400 */
+                                                                                                            
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Raleway';
+                                                                                                                src: url(./fonts/Raleway/Raleway-Regular.ttf);
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 400;
+                                                                                                            }
+                                                                                                            /* Raleway medium 500 */
+                                                                                                            
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Raleway';
+                                                                                                                src: url(./fonts/Raleway/Raleway-Medium.ttf);
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 500;
+                                                                                                            }
+                                                                                                            /* Raleway semi-bold 600 */
+                                                                                                            
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Raleway';
+                                                                                                                src: url(./fonts/Raleway/Raleway-SemiBold.ttf);
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 600;
+                                                                                                            }
+                                                                                                            /* Montserrat Light 300 */
+                                                                                                            
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Montserrat';
+                                                                                                                src: url(./fonts/Montserrat/Montserrat-Light.ttf);
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 300;
+                                                                                                            }
+                                                                                                            /* Montserrat regular 400 */
+                                                                                                            
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Montserrat';
+                                                                                                                src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 400;
+                                                                                                            }
+                                                                                                            /* Roboto regular 400*/
+                                                                                                            
+                                                                                                            @font-face {
+                                                                                                                font-family: 'Roboto';
+                                                                                                                src: url(./fonts/Roboto/Roboto-Regular.ttf);
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 400;
+                                                                                                            }
+                                                                                                            
+                                                                                                            * {
+                                                                                                                -webkit-box-sizing: border-box;
+                                                                                                                box-sizing: border-box;
+                                                                                                                margin: 0;
+                                                                                                                padding: 0;
+                                                                                                            }
+                                                                                                            
+                                                                                                            body {
+                                                                                                                font-family: 'Montserrat', 'Raleway', 'Roboto', Arial, Helvetica, sans-serif;
+                                                                                                            }
+                                                                                                            /* Header */
+                                                                                                            
+                                                                                                            .wraper {
+                                                                                                                max-width: 1275px;
+                                                                                                                margin: 0 auto;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .header {
+                                                                                                                background-color: #362d24;
+                                                                                                                background-image: url(image/bg_header.png);
+                                                                                                                background-repeat: no-repeat;
+                                                                                                                background-size: 100% 100%;
+                                                                                                                padding-bottom: 51px;
+                                                                                                                position: relative;
+                                                                                                                width: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .header-top {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-pack: justify;
+                                                                                                                -ms-flex-pack: justify;
+                                                                                                                justify-content: space-between;
+                                                                                                                margin-bottom: 334px;
+                                                                                                                padding-top: 46px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .header-list {
+                                                                                                                list-style: none;
+                                                                                                                padding-top: 15px;
+                                                                                                                display: flex;
+                                                                                                                flex-wrap: wrap;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .svg {
+                                                                                                                fill: white;
+                                                                                                                margin-left: 30px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .svg:hover {
+                                                                                                                fill: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .nav-link {
+                                                                                                                text-decoration: none;
+                                                                                                                color: #FFFFFF;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .burger {
+                                                                                                                display: none;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .nav-link:hover {
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .header-item {
+                                                                                                                padding-right: 24px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .header-nav-img {
+                                                                                                                padding-left: 54px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .nav-img:hover {
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .slogan {
+                                                                                                                margin: 0 auto;
+                                                                                                                margin-bottom: 315px;
+                                                                                                                text-align: center;
+                                                                                                                max-width: 569px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .slogan-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 500;
+                                                                                                                font-size: 36px;
+                                                                                                                line-height: 42px;
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .slogan-portfolio {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 600;
+                                                                                                                font-size: 52px;
+                                                                                                                line-height: 61px;
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .slogan-paragraf {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 20px;
+                                                                                                                text-align: center;
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .title-button {
+                                                                                                                padding: 19px 40px;
+                                                                                                                background: #988574;
+                                                                                                                border-radius: 3px;
+                                                                                                                font-family: Roboto;
+                                                                                                                font-weight: normal;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 16px;
+                                                                                                                text-align: center;
+                                                                                                                color: #FFFFFF;
+                                                                                                                margin-top: 58px;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                                border: none;
+                                                                                                                -webkit-transition-duration: 1s;
+                                                                                                                -o-transition-duration: 1s;
+                                                                                                                transition-duration: 1s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .title-button:hover {
+                                                                                                                -webkit-transform: rotate(360deg);
+                                                                                                                -ms-transform: rotate(360deg);
+                                                                                                                transform: rotate(360deg);
+                                                                                                                background-color: #83776b;
+                                                                                                                color: #000000;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .slider {
+                                                                                                                margin-left: 592px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .svg-slider {
+                                                                                                                fill: white;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .button-arrow-left {
+                                                                                                                border: none;
+                                                                                                                background: none;
+                                                                                                                position: absolute;
+                                                                                                                left: 160px;
+                                                                                                                top: 500px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .svg-slider:hover {
+                                                                                                                fill: #D3C1AC;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .button-arrow-right {
+                                                                                                                border: none;
+                                                                                                                background: none;
+                                                                                                                position: absolute;
+                                                                                                                right: 160px;
+                                                                                                                top: 500px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .pagination {
+                                                                                                                text-align: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .circle {
+                                                                                                                fill: white;
+                                                                                                                margin-right: 5px;
+                                                                                                                transition: 0.3;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .circle:hover {
+                                                                                                                fill: none;
+                                                                                                                -webkit-transform: scale(1.5);
+                                                                                                                -ms-transform: scale(1.5);
+                                                                                                                transform: scale(1.5);
+                                                                                                                border: 1px solid #D3C1AD;
+                                                                                                                border-radius: 50%;
+                                                                                                            }
+                                                                                                            /* Service */
+                                                                                                            
+                                                                                                            .services {
+                                                                                                                padding-top: 93px;
+                                                                                                                padding-bottom: 87px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-line {
+                                                                                                                width: 20%;
+                                                                                                                margin: 0 auto;
+                                                                                                                margin-top: 30px;
+                                                                                                                border: none;
+                                                                                                                background-color: #F1EEE9;
+                                                                                                                height: 2px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-services {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-align: center;
+                                                                                                                -ms-flex-align: center;
+                                                                                                                align-items: center;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-card {
+                                                                                                                width: 270px;
+                                                                                                                text-align: center;
+                                                                                                                margin-right: 30px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 600;
+                                                                                                                font-size: 22px;
+                                                                                                                line-height: 26px;
+                                                                                                                color: #555555;
+                                                                                                                margin-bottom: 20px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                                text-align: center;
+                                                                                                                color: #000000;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-svg {
+                                                                                                                fill: #555555;
+                                                                                                                margin-bottom: 30px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-card:hover .services-svg {
+                                                                                                                fill: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-card:hover .services-title {
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .services-card:hover .services-line {
+                                                                                                                background-color: #C7B199;
+                                                                                                            }
+                                                                                                            /* realization */
+                                                                                                            
+                                                                                                            .realization {
+                                                                                                                background-color: #FBFAF8;
+                                                                                                                padding-top: 80px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-realization {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -ms-flex-wrap: wrap;
+                                                                                                                flex-wrap: wrap;
+                                                                                                                -webkit-box-pack: center;
+                                                                                                                -ms-flex-pack: center;
+                                                                                                                justify-content: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .realization-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 600;
+                                                                                                                font-size: 30px;
+                                                                                                                line-height: 35px;
+                                                                                                                text-align: center;
+                                                                                                                color: #555555;
+                                                                                                                margin-bottom: 20px;
+                                                                                                                width: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .realization-text {
+                                                                                                                max-width: 770px;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 20px;
+                                                                                                                text-align: center;
+                                                                                                                color: #8C8C8C;
+                                                                                                                margin-bottom: 42px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .realization-img {
+                                                                                                                width: 100%;
+                                                                                                            }
+                                                                                                            /* Purchase */
+                                                                                                            
+                                                                                                            .purchase {
+                                                                                                                background: -o-radial-gradient(4.58% 100%, 94.87% 15543.47%, #211B19 0%, #4E3326 100%);
+                                                                                                                background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+                                                                                                                padding-top: 45px;
+                                                                                                                padding-bottom: 45px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-purchase {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-pack: justify;
+                                                                                                                -ms-flex-pack: justify;
+                                                                                                                justify-content: space-between;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .puschase-text-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: normal;
+                                                                                                                font-size: 28px;
+                                                                                                                line-height: 33px;
+                                                                                                                text-align: center;
+                                                                                                                color: white;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .puschase-text-title:hover {
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .puschase-text-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 18px;
+                                                                                                                line-height: 22px;
+                                                                                                                color: #615855;
+                                                                                                                max-width: 569px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .purchase-button {
+                                                                                                                padding: 18px 31px;
+                                                                                                                background: #988574;
+                                                                                                                border-radius: 4px;
+                                                                                                                text-align: center;
+                                                                                                                text-transform: uppercase;
+                                                                                                                color: #FFFFFF;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .purchase-button:hover {
+                                                                                                                -webkit-transform: scale(1.5);
+                                                                                                                -ms-transform: scale(1.5);
+                                                                                                                transform: scale(1.5);
+                                                                                                                color: #24201e;
+                                                                                                            }
+                                                                                                            /* latestProjects */
+                                                                                                            
+                                                                                                            .latestProjects {
+                                                                                                                padding-top: 61px;
+                                                                                                                padding-bottom: 66px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-text {
+                                                                                                                text-align: center;
+                                                                                                                margin-bottom: 27px;
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -ms-flex-wrap: wrap;
+                                                                                                                flex-wrap: wrap;
+                                                                                                                -webkit-box-pack: center;
+                                                                                                                -ms-flex-pack: center;
+                                                                                                                justify-content: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-text-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 600;
+                                                                                                                font-size: 30px;
+                                                                                                                line-height: 35px;
+                                                                                                                text-align: center;
+                                                                                                                color: #555555;
+                                                                                                                margin-bottom: 9px;
+                                                                                                                width: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-text-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 20px;
+                                                                                                                text-align: center;
+                                                                                                                color: #8C8C8C;
+                                                                                                                max-width: 802px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .filter {
+                                                                                                                text-align: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .filter-button {
+                                                                                                                padding: 8px 26px;
+                                                                                                                margin-right: 10px;
+                                                                                                                background: white;
+                                                                                                                border: 1px solid #EBEBEB;
+                                                                                                                -webkit-box-sizing: border-box;
+                                                                                                                box-sizing: border-box;
+                                                                                                                border-radius: 3px;
+                                                                                                                color: #8C8C8C;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .filter-button:hover {
+                                                                                                                background: #998575;
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            /* Card */
+                                                                                                            
+                                                                                                            .card {
+                                                                                                                margin-bottom: 30px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-card {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -ms-flex-wrap: wrap;
+                                                                                                                flex-wrap: wrap;
+                                                                                                                -webkit-box-pack: center;
+                                                                                                                -ms-flex-pack: center;
+                                                                                                                justify-content: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-item {
+                                                                                                                margin-right: 30px;
+                                                                                                                margin-bottom: 39px;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                                background: #FBFAF8;
+                                                                                                                width: 370px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-text-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 500;
+                                                                                                                font-size: 20px;
+                                                                                                                line-height: 23px;
+                                                                                                                color: #C7B299;
+                                                                                                                margin-bottom: 8px;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-item-img {
+                                                                                                                display: block;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                                max-width: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-text {
+                                                                                                                padding: 25px 23px;
+                                                                                                                position: relative;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-text::before {
+                                                                                                                content: '';
+                                                                                                                display: block;
+                                                                                                                width: 0px;
+                                                                                                                height: 0px;
+                                                                                                                border: 17px solid transparent;
+                                                                                                                border-bottom: 9px solid #FBFAF8;
+                                                                                                                position: absolute;
+                                                                                                                top: -24px;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-text-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-style: normal;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                                color: #D1D1D1;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-item:hover .card-item-img {
+                                                                                                                -webkit-filter: brightness(40%);
+                                                                                                                filter: brightness(40%);
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-item:hover .card-text {
+                                                                                                                background: #352F2D;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-item:hover .card-text:before {
+                                                                                                                content: '';
+                                                                                                                display: block;
+                                                                                                                width: 0px;
+                                                                                                                height: 0px;
+                                                                                                                border: 17px solid transparent;
+                                                                                                                border-bottom: 9px solid #352F2D;
+                                                                                                                position: absolute;
+                                                                                                                top: -24px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-item:hover .card-text-title {
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-item:hover .card-text-text {
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-button {
+                                                                                                                padding: 18px 46px;
+                                                                                                                background: #988574;
+                                                                                                                border-radius: 3px;
+                                                                                                                font-family: Roboto;
+                                                                                                                font-weight: normal;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 16px;
+                                                                                                                text-align: center;
+                                                                                                                text-transform: uppercase;
+                                                                                                                color: #FFFFFF;
+                                                                                                                border: none;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-button:hover {
+                                                                                                                background: #352F2D;
+                                                                                                                -webkit-transform: translateX(60px);
+                                                                                                                -ms-transform: translateX(60px);
+                                                                                                                transform: translateX(60px);
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            /* Video */
+                                                                                                            
+                                                                                                            .video {
+                                                                                                                background-color: #362d24;
+                                                                                                                background-image: url(image/bg_video_presentation.png);
+                                                                                                                background-repeat: no-repeat;
+                                                                                                                background-size: 100% 100%;
+                                                                                                                width: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-video {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-orient: vertical;
+                                                                                                                -webkit-box-direction: normal;
+                                                                                                                -ms-flex-direction: column;
+                                                                                                                flex-direction: column;
+                                                                                                                -webkit-box-align: center;
+                                                                                                                -ms-flex-align: center;
+                                                                                                                align-items: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .video-svg {
+                                                                                                                fill: white;
+                                                                                                                width: 100%;
+                                                                                                                margin-top: 248px;
+                                                                                                                margin-bottom: 31px;
+                                                                                                                -webkit-transition: 0.3s;
+                                                                                                                -o-transition: 0.3s;
+                                                                                                                transition: 0.3s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .video-svg:hover {
+                                                                                                                -webkit-transform: scale(1.3);
+                                                                                                                -ms-transform: scale(1.3);
+                                                                                                                transform: scale(1.3);
+                                                                                                            }
+                                                                                                            
+                                                                                                            .video-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 500;
+                                                                                                                font-size: 30px;
+                                                                                                                line-height: 35px;
+                                                                                                                color: #FFFFFF;
+                                                                                                                margin-bottom: 18px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .video-text {
+                                                                                                                max-width: 570px;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 20px;
+                                                                                                                text-align: center;
+                                                                                                                color: #FFFFFF;
+                                                                                                                margin-bottom: 18px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .video-time {
+                                                                                                                margin-bottom: 195px;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: normal;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 20px;
+                                                                                                                text-align: center;
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            /* devices */
+                                                                                                            
+                                                                                                            .wraper-devices {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-pack: center;
+                                                                                                                -ms-flex-pack: center;
+                                                                                                                justify-content: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-img {
+                                                                                                                margin-top: 78px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .device-img {
+                                                                                                                display: block;
+                                                                                                                width: 100%;
+                                                                                                                height: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-mobile_devices {
+                                                                                                                margin-top: 190px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .mobile_devices-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 600;
+                                                                                                                font-size: 30px;
+                                                                                                                line-height: 35px;
+                                                                                                                color: #555555;
+                                                                                                                margin-bottom: 20px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .mobile_devices-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 20px;
+                                                                                                                color: #8C8C8C;
+                                                                                                                max-width: 670px;
+                                                                                                                margin-bottom: 50px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .device-list {
+                                                                                                                list-style-type: none;
+                                                                                                                margin-left: 108px;
+                                                                                                                max-width: 578px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .device-list-item {
+                                                                                                                margin-bottom: 11px;
+                                                                                                                position: relative;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 20px;
+                                                                                                                color: #8C8C8C;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .device-list-item:before {
+                                                                                                                content: '';
+                                                                                                                position: absolute;
+                                                                                                                display: block;
+                                                                                                                width: 50px;
+                                                                                                                height: 50px;
+                                                                                                                background: url(image/mobile-svg.svg) no-repeat;
+                                                                                                                left: -30px;
+                                                                                                            }
+                                                                                                            /* counters */
+                                                                                                            
+                                                                                                            .counters {
+                                                                                                                background: -o-radial-gradient(4.58% 100%, 94.87% 15543.47%, #211B19 0%, #4E3326 100%);
+                                                                                                                background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+                                                                                                            }
+                                                                                                            
+                                                                                                            .counters-svg {
+                                                                                                                fill: #C7B299;
+                                                                                                                -ms-flex-item-align: center;
+                                                                                                                -ms-grid-row-align: center;
+                                                                                                                align-self: center
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-counters {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-pack: justify;
+                                                                                                                -ms-flex-pack: justify;
+                                                                                                                justify-content: space-between;
+                                                                                                                max-width: 786px;
+                                                                                                                -ms-flex-wrap: wrap;
+                                                                                                                flex-wrap: wrap;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .count {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 48px;
+                                                                                                                line-height: 59px;
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .counters-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                                color: #C7B299;
+                                                                                                                margin-bottom: 15px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .counters1 {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-orient: vertical;
+                                                                                                                -webkit-box-direction: normal;
+                                                                                                                -ms-flex-direction: column;
+                                                                                                                flex-direction: column;
+                                                                                                                margin-bottom: 36px;
+                                                                                                                margin-top: 36px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .count-line {
+                                                                                                                width: 30px;
+                                                                                                                -ms-flex-item-align: center;
+                                                                                                                -ms-grid-row-align: center;
+                                                                                                                align-self: center
+                                                                                                            }
+                                                                                                            /* recent */
+                                                                                                            
+                                                                                                            .wraper-recent-text {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-orient: vertical;
+                                                                                                                -webkit-box-direction: normal;
+                                                                                                                -ms-flex-direction: column;
+                                                                                                                flex-direction: column;
+                                                                                                                -webkit-box-align: center;
+                                                                                                                -ms-flex-align: center;
+                                                                                                                align-items: center;
+                                                                                                                margin-top: 100px;
+                                                                                                                margin-bottom: 30px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-text-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 600;
+                                                                                                                font-size: 30px;
+                                                                                                                line-height: 35px;
+                                                                                                                color: #555555;
+                                                                                                                margin-bottom: 20px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-text-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 16px;
+                                                                                                                line-height: 28px;
+                                                                                                                color: #8C8C8C;
+                                                                                                                max-width: 770px;
+                                                                                                                text-align: center;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-pack: justify;
+                                                                                                                -ms-flex-pack: justify;
+                                                                                                                justify-content: space-between;
+                                                                                                                margin-bottom: 54px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-text {
+                                                                                                                padding: 31px 36px 22px 23px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-img {
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                                max-width: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-1 {
+                                                                                                                margin-right: 85px;
+                                                                                                                position: relative;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                                width: 370px;
+                                                                                                                background-color: white;
+                                                                                                                border: 1px solid #B3B3B3;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .figcaption-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 500;
+                                                                                                                font-size: 20px;
+                                                                                                                line-height: 23px;
+                                                                                                                color: #555555;
+                                                                                                                margin-bottom: 22px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .figcaption-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 22px;
+                                                                                                                color: #000000;
+                                                                                                                margin-bottom: 17px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .figcaption-link {
+                                                                                                                text-decoration: none;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                                color: #C7B299;
+                                                                                                                position: relative;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .figcaption-link:before {
+                                                                                                                content: '';
+                                                                                                                display: block;
+                                                                                                                width: 0px;
+                                                                                                                height: 0px;
+                                                                                                                border: 5px solid transparent;
+                                                                                                                border-left: 6px solid #C7B299;
+                                                                                                                top: 6px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                                position: absolute;
+                                                                                                                left: 85px;
+                                                                                                                border-radius: 2px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-date {
+                                                                                                                position: absolute;
+                                                                                                                top: 20px;
+                                                                                                                left: 20px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .data {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 30px;
+                                                                                                                line-height: 37px;
+                                                                                                                color: #FFFFFF;
+                                                                                                                background: #363636;
+                                                                                                                display: block;
+                                                                                                                padding: 1px 6px;
+                                                                                                                border-radius: 3px 3px 0 0;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .day {
+                                                                                                                font-family: Roboto;
+                                                                                                                font-weight: normal;
+                                                                                                                font-size: 12px;
+                                                                                                                line-height: 14px;
+                                                                                                                color: #FFFFFF;
+                                                                                                                display: block;
+                                                                                                                background: #242424;
+                                                                                                                padding: 5px 13px;
+                                                                                                                border-radius: 0 0 3px 3px;
+                                                                                                                -webkit-transition: 0.4s;
+                                                                                                                -o-transition: 0.4s;
+                                                                                                                transition: 0.4s;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-1:hover {
+                                                                                                                background-color: #352F2D;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-1:hover .recent-card-img {
+                                                                                                                -webkit-filter: brightness(40%);
+                                                                                                                filter: brightness(40%);
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-1:hover .figcaption-title {
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-1:hover .figcaption-text {
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-1:hover .data {
+                                                                                                                background: #C7B199;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-card-1:hover .day {
+                                                                                                                background: #A48D71;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .svg-arrow {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-pack: center;
+                                                                                                                -ms-flex-pack: center;
+                                                                                                                justify-content: center;
+                                                                                                                margin-bottom: 38px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-svg {
+                                                                                                                fill: #D1D1D1;
+                                                                                                                text-align: center;
+                                                                                                                margin-right: 18px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .recent-svg:hover {
+                                                                                                                fill: #C7B299;
+                                                                                                            }
+                                                                                                            /* Div Partners */
+                                                                                                            
+                                                                                                            .partners {
+                                                                                                                background-color: #362d24;
+                                                                                                                background-image: url(image/bg_partners.png);
+                                                                                                                background-size: 100% 100%;
+                                                                                                                width: 100%;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-partners {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                                -webkit-box-pack: center;
+                                                                                                                -ms-flex-pack: center;
+                                                                                                                justify-content: center;
+                                                                                                                padding-top: 140px;
+                                                                                                                padding-bottom: 140px;
+                                                                                                                -ms-flex-wrap: wrap;
+                                                                                                                flex-wrap: wrap;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .partners-img {
+                                                                                                                margin-right: 75px;
+                                                                                                            }
+                                                                                                            /* footer */
+                                                                                                            
+                                                                                                            .footer-top {
+                                                                                                                background: #191919;
+                                                                                                                padding-top: 107px;
+                                                                                                                padding-bottom: 128px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .wraper-footer-top {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .svg-footer {
+                                                                                                                margin-bottom: 18px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-card1 {
+                                                                                                                max-width: 270px;
+                                                                                                                margin-right: 72px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-card2 {
+                                                                                                                max-width: 270px;
+                                                                                                                margin-right: 50px;
+                                                                                                                padding-top: 25px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-card3 {
+                                                                                                                max-width: 270px;
+                                                                                                                margin-right: 48px;
+                                                                                                                padding-top: 25px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-card4 {
+                                                                                                                max-width: 270px;
+                                                                                                                padding-top: 25px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-text {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                                color: #555555;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-text-date {
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 12px;
+                                                                                                                line-height: 15px;
+                                                                                                                color: #363636;
+                                                                                                                margin-top: 6px;
+                                                                                                                margin-bottom: 6px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-text-date:hover {
+                                                                                                                color: #FFFFFF;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-text:hover {
+                                                                                                                color: #C7B299;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .line {
+                                                                                                                margin-top: 16px;
+                                                                                                                margin-bottom: 12px;
+                                                                                                                border-color: #363636;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-title {
+                                                                                                                font-family: Raleway;
+                                                                                                                font-weight: 600;
+                                                                                                                font-size: 24px;
+                                                                                                                line-height: 28px;
+                                                                                                                color: #FFFFFF;
+                                                                                                                margin-bottom: 24px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .link-more {
+                                                                                                                color: #D1D1D1;
+                                                                                                                text-decoration: none;
+                                                                                                                margin-top: 18px;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: normal;
+                                                                                                                font-size: 14px;
+                                                                                                                line-height: 17px;
+                                                                                                                display: inline-block;
+                                                                                                                position: relative;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .link-more::before {
+                                                                                                                content: "";
+                                                                                                                display: block;
+                                                                                                                border: 5px solid transparent;
+                                                                                                                border-left: 7px solid #D1D1D1;
+                                                                                                                position: absolute;
+                                                                                                                top: 4px;
+                                                                                                                right: -30px;
+                                                                                                                width: 0px;
+                                                                                                                height: 0px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .link-more:hover {
+                                                                                                                color: #aa9c9c;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .link-more:hover::before {
+                                                                                                                border-left-color: #aa9c9c;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .footer-link-twitter {
+                                                                                                                color: #00BFF3;
+                                                                                                                text-decoration: none;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .copy {
+                                                                                                                background: #101010;
+                                                                                                                padding-top: 58px;
+                                                                                                                padding-bottom: 41px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .copy-list {
+                                                                                                                display: -webkit-box;
+                                                                                                                display: -ms-flexbox;
+                                                                                                                display: flex;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .copy-list-item {
+                                                                                                                list-style: none;
+                                                                                                                border-right: 2px solid #1A1A1A;
+                                                                                                                padding-right: 10px;
+                                                                                                                padding-left: 10px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .copy-list-item:first-child {
+                                                                                                                padding-left: 0;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .copy-list-item:last-child {
+                                                                                                                border: none;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .copy-list-link {
+                                                                                                                text-decoration: none;
+                                                                                                                font-family: Montserrat;
+                                                                                                                font-weight: 300;
+                                                                                                                font-size: 13px;
+                                                                                                                line-height: 16px;
+                                                                                                                color: #555555;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .copy-list-link:hover {
+                                                                                                                color: #BAA78F;
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media (max-width: 1296px) {
+                                                                                                                .header-top {
+                                                                                                                    margin-left: 15px;
+                                                                                                                }
+                                                                                                                .wraper-purchase {
+                                                                                                                    margin-left: 15px;
+                                                                                                                    margin-right: 15px;
+                                                                                                                }
+                                                                                                                .wraper-services {
+                                                                                                                    -webkit-box-pack: center;
+                                                                                                                    -ms-flex-pack: center;
+                                                                                                                    justify-content: center;
+                                                                                                                }
+                                                                                                                .recent-card {
+                                                                                                                    margin-left: 50px;
+                                                                                                                }
+                                                                                                                .wraper-footer-top {
+                                                                                                                    margin-left: 30px;
+                                                                                                                    margin-right: 20px;
+                                                                                                                }
+                                                                                                                .copy-list {
+                                                                                                                    margin-left: 20px;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media (max-width:1205px) {
+                                                                                                                .wraper-card-button {
+                                                                                                                    width: 100%;
+                                                                                                                    text-align: center;
+                                                                                                                }
+                                                                                                                .partners-img {
+                                                                                                                    margin-right: 200px;
+                                                                                                                    margin-bottom: 50px;
+                                                                                                                    margin-left: 20px;
+                                                                                                                }
+                                                                                                                .wraper-partners {
+                                                                                                                    margin-left: 130px;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media (max-width: 550px) {
+                                                                                                                fff
